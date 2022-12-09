@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVELLER</title>   
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c822a016dc.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet"/>
+   <style>
+   .carousel-text h1{
+        font-size: 60px;
+    }
+    .carousel-text h2{
+        font-size: 20px;
+    }
+    @media (max-width: 576px){
+        .carousel-text h1{
+            font-size: 30px;
+        }
+    }
+   </style>
+
+</head> 
+<body>
+
+    <!--===== HOME PAGE START =====-->
+    <section class="home" id="home">
+        <div class="header">
+            <div class="nav-social">
+                <div class="info">
+                    <i class="fa fa-envelope"></i>travel@gmail.com
+                    <i class="fa fa-mobile"></i>+91 23423 87873
+                </div>
+                <div class="social">
+                    <button class="social-link">
+                        <i class="fab fa-facebook"></i>
+                    </button>
+                    <button class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </button>
+                    <button class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </button>
+                    <button class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </button>
+                    <button class="social-link">
+                        <i class="fab fa-youtube"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="navbar">
+                <div class="logo">TRAV<span class="text-color">ELLER</span></div>
+                <a href="#" class="btn">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                </a>
+                <div class="navbar-links">
+                  <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="destination.html">Destination</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="packages.html">Tour Packages</a></li>
+                        <li><a href="guides.html">Guides</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+            </div>
+
+
+
+
+
+        </div>
+
+    </section>
+    <!--===== NAVBAR END =====-->
+
+
+    <!--===== CAROUSEL START =====-->
+
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides">
+            <img src="/images/pic-3.jpg">
+            <div class="carousel-text">
+                <h1>ABOUT</h1>
+                <h2>HOME  >>  ABOUT</h2>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <img src="/images/pic-4.jpg">
+            <div class="carousel-text">
+                <h1>ABOUT</h1>
+                <h2>HOME  >>  ABOUT</h2>   
+            </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+
+        <div class="destination-form">
+            <input list="destination" class="input-dest" placeholder="Destination">
+            <datalist id="destination" class="input-dest" placeholder="Depart">
+                <option value="Destination1">
+                <option value="Destination1">
+                <option value="Destination1">
+                <option value="Destination1">
+            </datalist>
+            <input class="input-dest" type="date" placeholder="Depart">
+            <input class="input-dest" type="date" placeholder="Return">
+            <input class="input-dest" list="duration" name="duration" placeholder="Duration">
+            <datalist id="duration" class="input-dest" placeholder="Return">
+                <option value="duration1">
+                <option value="duration1">
+                <option value="duration1">
+                <option value="duration1">
+            </datalist>
+            <button class="input-dest submit">
+                Submit
+            </button>
+        </div>
+         
+    </section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+
+    <!--===== ABOUT SECTION =====-->
+
+    <section class="about" id="about">
+        <div class="about-container">
+            <div class="about-section">
+                <div class="left-side">
+                     <img src="/images/niagara-falls-5249775.jpg" alt="picture"> 
+                </div>
+                <div class="right-side">
+                    <h1>About us</h1>
+                    <h2>we provide best tour <br> packages in your budget</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut eos nam labore harum ullam a assumenda dolores repudiandae voluptatem neque, ipsa quisquam, iste quod debitis.
+                    </p>
+                    <div class="about-image">
+                        <img src="/images/tours.jpg" alt="picture">
+                        <img src="/images/tours-1.jpg" alt="picture">
+                    </div> 
+                    <button class="book-button ab-btn">
+                        Book Now
+                    </button> 
+                </div>
+            </div>
+
+            <div class="about-box">
+                <div class="about-content">
+                    <button class="fa-button">
+                    <i class="fa fa-2x fa-money-check-alt"></i>
+                    </button>
+                </div>
+                <div class="about-content">
+                    <h1>Competitive Pricing</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+                <div class="about-content">
+                    <button class="fa-button">
+                    <i class="fa fa-2x fa-award"></i>
+                    </button>
+                </div>
+                <div class="about-content">
+                    <h1>Best Services</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+                <div class="about-content">
+                    <button class="fa-button">
+                    <i class="fa fa-2x fa-globe"></i>
+                    </button>
+                </div>
+                <div class="about-content">
+                    <h1>Worldwide Coverage</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                </div>
+            </div>
+
+            
+        </div>
+    </section>
+
+   
+
+    <!--===== SIGN-UP SECTION =====-->
+
+    <section class="sign-up" id="sign-up">
+        <div class="container-sign">
+            <div class="content">
+                <h1><span class="text-color">mega offer</span></h1>
+                <h2><span class="text-color">30% off </span> for first ride</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore ipsa iste recusandae dignissimos voluptas reiciendis ipsum, necessitatibus labore voluptates minima?</p>
+                <ul>
+                    <li><span class="list">Lorem ipsum dolor sit amet consectetur</span></li>
+                    <li><span class="list">Lorem ipsum dolor sit amet consectetur</span></li>
+                    <li><span class="list">Lorem ipsum dolor sit amet consectetur</span></li>
+                </ul>
+            </div>
+            <div class="content content-1">
+                <h1>sign-up now</h1>
+                <form>
+                    <input type="text" class="form-group" placeholder="Your Name">
+                    <input type="text" class="form-group" placeholder="Your E-mail">
+                    <input type="text" class="form-group" placeholder="Select a destination">
+                </form>
+                <button class="sign-button">
+                    sign-up now
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--===== GUIDE SECTION =====-->
+
+    <section class="guides" id="guides">
+        <h1>Guides</h1>
+        <h2>Travel guides</h2>
+
+        <div class="container">
+            <div class="box">
+                <div class="image">
+                    <img src="/img/team-1.jpg">
+                </div>
+                <div class="overlay">
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                    </button>
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                    </button>
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </button>
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </button>
+                </div>
+                <div class="guide-content">
+                    <h4>Guide Name</h4>
+                    <h5>Designation</h5>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="/img/team-2.jpg">
+                </div>
+                <div class="overlay">
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                    </button>
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                    </button>
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </button>
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </button>
+                </div>
+                <div class="guide-content">
+                    <h4>Guide Name</h4>
+                    <h5>Designation</h5>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="/img/team-3.jpg">
+                </div>
+                <div class="overlay">
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                    </button>
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                    </button>
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </button>
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </button>
+                </div>
+                <div class="guide-content">
+                    <h4>Guide Name</h4>
+                    <h5>Designation</h5>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="/img/team-4.jpg">
+                </div>
+                <div class="overlay">
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                    </button>
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                    </button>
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </button>
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </button>
+                </div>
+                <div class="guide-content">
+                    <h4>Guide Name</h4>
+                    <h5>Designation</h5>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    
+
+    <!--===== FOOTER SECTION =====-->
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="division">
+                <div class="logo">
+                    <p>TRAIL<span class="text-color">BLAZER</span></p>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo harum ex ab sed perferendis tempora!</p>
+                <h1>follow us</h1>
+                <div class="social">
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                    </button>
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                    </button>
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </button>
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </button>
+                </div>
+            </div>
+            <div class="division">
+                <h1>our services</h1>
+                <ul class="links">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Destination</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Packages</a></li>
+                    <li><a href="">Guides</a></li>
+                    <li><a href="">Testimonial</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+            </div>
+            <div class="division">
+                <h1>useful links</h1>
+                <ul class="links">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Destination</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Packages</a></li>
+                    <li><a href="">Guides</a></li>
+                    <li><a href="">Testimonial</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+            </div>
+            <div class="division">
+                <h1>contact us</h1>
+                <h5><i class="fa fa-map-marker-alt"></i>123 street, Washington, USA.</h5>
+                <h5><i class="fa fa-mobile"></i> +012 345 67890</h5>
+                <h5><i class="fa fa-envelope"></i> travel@gmail.com</h5>
+                <h4>newsletter</h4>
+                <input type="text" class="mail">
+                <button class="sign-up">Sign-up</button>
+            </div>
+        </div>
+        
+    </div> 
+    <div class="copyright">
+        copyright &copy <strong>TRAVEL<span class="text-color">LER</span></strong> | All rights reserved. Designed By <span class="text-color"><strong>Veneesia</strong></span>
+    </div>
+
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+<script>
+    const btn=document.getElementsByClassName('btn')[0];
+const navbar=document.getElementsByClassName('navbar-links')[0];
+
+btn.addEventListener('click',()=>{
+  navbar.classList.toggle('active');
+});
+
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace("active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += "active";
+} 
+
+
+
+// Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+} 
+
+</script>
+   
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

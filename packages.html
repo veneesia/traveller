@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAVELLER</title>   
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c822a016dc.js" crossorigin="anonymous"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet"/>
+    <style>
+        .carousel-text h1{
+             font-size: 60px;
+         }
+         .carousel-text h2{
+             font-size: 20px;
+         }
+         @media (max-width: 576px){
+            .packages{
+                margin-top: 400px;
+            }
+            .carousel-text h1{
+            font-size: 30px;
+            }
+         }
+    </style>
+
+</head> 
+<body>
+
+    <!--===== HOME PAGE START =====-->
+    <section class="home" id="home">
+        <div class="header">
+            <div class="nav-social">
+                <div class="info">
+                    <i class="fa fa-envelope"></i>travel@gmail.com
+                    <i class="fa fa-mobile"></i>+91 23423 87873
+                </div>
+                <div class="social">
+                    <button class="social-link">
+                        <i class="fab fa-facebook"></i>
+                    </button>
+                    <button class="social-link">
+                        <i class="fab fa-twitter"></i>
+                    </button>
+                    <button class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </button>
+                    <button class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </button>
+                    <button class="social-link">
+                        <i class="fab fa-youtube"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="navbar">
+                <div class="logo">TRAV<span class="text-color">ELLER</span></div>
+                <a href="#" class="btn">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                </a>
+                <div class="navbar-links">
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="destination.html">Destination</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="packages.html">Tour Packages</a></li>
+                    <li><a href="guides.html">Guides</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!--===== NAVBAR END =====-->
+
+
+    <!--===== CAROUSEL START =====-->
+
+    <div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides">
+            <img src="/images/pic-9.webp">
+            <div class="carousel-text">
+                <h1>PACKAGES</h1>
+                <h2>HOME  >>  PACKAGES</h2>
+            </div>
+        </div>
+
+        <div class="mySlides">
+            <img src="/images/pic-10.jpg">
+            <div class="carousel-text">
+                <h1>PACKAGES</h1>
+                <h2>HOME  >>  PACKAGES</h2>
+            </div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+
+        <div class="destination-form">
+            <input list="destination" class="input-dest" placeholder="Destination">
+            <datalist id="destination" class="input-dest" placeholder="Depart">
+                <option value="Destination1">
+                <option value="Destination1">
+                <option value="Destination1">
+                <option value="Destination1">
+            </datalist>
+            <input class="input-dest" type="date" placeholder="Depart">
+            <input class="input-dest" type="date" placeholder="Return">
+            <input class="input-dest" list="duration" name="duration" placeholder="Duration">
+            <datalist id="duration" class="input-dest" placeholder="Return">
+                <option value="duration1">
+                <option value="duration1">
+                <option value="duration1">
+                <option value="duration1">
+            </datalist>
+            <button class="input-dest submit">
+                Submit
+            </button>
+        </div>
+         
+    </section>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+    <!--===== PACKAGES SECTION =====-->
+
+    <section class="packages" id="packages">
+        <h1>Packages</h1>
+        <h2>perfect tour packages</h2>
+        <div class="tour-container">
+            <div class="package-box">
+                <div class="image-box">
+                    <img src="/images/australia.webp" alt="">
+                </div>
+                <div class="content-box">
+                    <div class="contents">
+                        <div class="content-details">
+                            <i class="fa fa-map-marker-alt"></i>
+                            Australia
+                        </div>
+                        <div class="content-details">
+                            <i class="fa fa-calendar-alt"></i>
+                            3 days
+                        </div>
+                        <div class="content-details">
+                            <i class="fa fa-user"></i>
+                            2 Person
+                        </div>
+                    </div>
+                    <div class="heading">
+                        <p>Discover amazing places of <br> the world with us</p>
+                        <h4><i class="fa fa-star"></i>4.5(250)</h4>
+                        <h5><span class="text-color">$</span>350</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="package-box">
+                <div class="image-box">
+                    <img src="/images/usa.jpg" alt="">
+                </div>
+                <div class="content-box">
+                    <div class="contents">
+                        <div class="content-details">
+                            <i class="fa fa-map-marker-alt"></i>
+                            United States
+                        </div>
+                        <div class="content-details">
+                            <i class="fa fa-calendar-alt"></i>
+                            3 days
+                        </div>
+                        <div class="content-details">
+                            <i class="fa fa-user"></i>
+                            2 Person
+                        </div>
+                    </div>
+                    <div class="heading">
+                        <p>Discover amazing places of <br> the world with us</p>
+                        <h4><i class="fa fa-star"></i>4.5(250)</h4>
+                        <h5><span class="text-color">$</span>350</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="package-box">
+                <div class="image-box">
+                    <img src="/images/UK.jpg" alt="">
+                </div>
+                <div class="content-box">
+                    <div class="contents">
+                        <div class="content-details">
+                            <i class="fa fa-map-marker-alt"></i>
+                            United Kingdom
+                        </div>
+                        <div class="content-details">
+                            <i class="fa fa-calendar-alt"></i>
+                            3 days
+                        </div>
+                        <div class="content-details">
+                            <i class="fa fa-user"></i>
+                            2 Person
+                        </div>
+                    </div>
+                    <div class="heading">
+                        <p>Discover amazing places of <br> the world with us</p>
+                        <h4><i class="fa fa-star"></i>4.5(250)</h4>
+                        <h5><span class="text-color">$</span>350</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="package-box">
+                <div class="image-box">
+                    <img src="/images/swiss.jpg" alt="">
+                </div>
+                <div class="content-box">
+                    <div class="contents">
+                        <div class="content-details">
+                            <i class="fa fa-map-marker-alt"></i>
+                            Switzerland
+                        </div>
+                        <div class="content-details">
+                            <i class="fa fa-calendar-alt"></i>
+                            3 days
+                        </div>
+                        <div class="content-details">
+                            <i class="fa fa-user"></i>
+                            2 Person
+                        </div>
+                    </div>
+                    <div class="heading">
+                        <p>Discover amazing places of <br> the world with us</p>
+                        <h4><i class="fa fa-star"></i>4.5(250)</h4>
+                        <h5><span class="text-color">$</span>350</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="package-box">
+                <div class="image-box">
+                    <img src="/images/SINGAPORE.jpg" alt="">
+                </div>
+                <div class="content-box">
+                    <div class="contents">
+                        <div class="content-details">
+                            <i class="fa fa-map-marker-alt"></i>
+                            Singapore
+                        </div>
+                        <div class="content-details">
+                            <i class="fa fa-calendar-alt"></i>
+                            3 days
+                        </div>
+                        <div class="content-details">
+                            <i class="fa fa-user"></i>
+                            2 Person
+                        </div>
+                    </div>
+                    <div class="heading">
+                        <p>Discover amazing places of <br> the world with us</p>
+                        <h4><i class="fa fa-star"></i>4.5(250)</h4>
+                        <h5><span class="text-color">$</span>350</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="package-box">
+                <div class="image-box">
+                    <img src="/images/newzealand.jpg" alt="">
+                </div>
+                <div class="content-box">
+                    <div class="contents">
+                        <div class="content-details">
+                            <i class="fa fa-map-marker-alt"></i>
+                            New Zealand
+                        </div>
+                        <div class="content-details">
+                            <i class="fa fa-calendar-alt"></i>
+                            3 days
+                        </div>
+                        <div class="content-details">
+                            <i class="fa fa-user"></i>
+                            2 Person
+                        </div>
+                    </div>
+                    <div class="heading">
+                        <p>Discover amazing places of <br> the world with us</p>
+                        <h4><i class="fa fa-star"></i>4.5(250)</h4>
+                        <h5><span class="text-color">$</span>350</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!--===== DESTINATION SECTION =====-->
+
+    <section class="destination-section" id="destination-section">
+        <h1>Destination</h1>
+        <h2>Explore top destination</h2>
+        <div class="destination-container">
+            <div class="cities">
+                <img src="/images/australia.webp" alt="">
+                <h3> Australia <br><span class="city-text"> 100 Cities </h3>
+            </div>
+            <div class="cities">
+                <img src="/images/usa.jpg" alt="">
+                <h3> united states <br><span class="city-text"> 100 Cities </h3>
+            </div>
+            <div class="cities">
+                <img src="/images/UK.jpg" alt="">
+                <h3> united kingdom <br><span class="city-text"> 100 Cities </h3>
+            </div>
+            <div class="cities">
+                <img src="/images/swiss.jpg" alt="">
+                <h3> switzerland <br><span class="city-text"> 100 Cities </h3>
+            </div>
+            <div class="cities">
+                <img src="/images/SINGAPORE.jpg" alt="">
+                <h3> singapore <br><span class="city-text"> 100 Cities </h3>
+            </div>
+            <div class="cities">
+                <img src="/images/newzealand.jpg" alt="">
+                <h3> New Zealand <br><span class="city-text"> 100 Cities </h3>
+            </div>
+        </div>
+    </section>
+
+    
+
+    
+    
+    <!--===== FOOTER SECTION =====-->
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="division">
+                <div class="logo">
+                    <p>TRAIL<span class="text-color">BLAZER</span></p>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo harum ex ab sed perferendis tempora!</p>
+                <h1>follow us</h1>
+                <div class="social">
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                    </button>
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                    </button>
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                    </button>
+                    <button class="guide-social">
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </button>
+                </div>
+            </div>
+            <div class="division">
+                <h1>our services</h1>
+                <ul class="links">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Destination</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Packages</a></li>
+                    <li><a href="">Guides</a></li>
+                    <li><a href="">Testimonial</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+            </div>
+            <div class="division">
+                <h1>useful links</h1>
+                <ul class="links">
+                    <li><a href="">About</a></li>
+                    <li><a href="">Destination</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Packages</a></li>
+                    <li><a href="">Guides</a></li>
+                    <li><a href="">Testimonial</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+            </div>
+            <div class="division">
+                <h1>contact us</h1>
+                <h5><i class="fa fa-map-marker-alt"></i>123 street, Washington, USA.</h5>
+                <h5><i class="fa fa-mobile"></i> +012 345 67890</h5>
+                <h5><i class="fa fa-envelope"></i> travel@gmail.com</h5>
+                <h4>newsletter</h4>
+                <input type="text" class="mail">
+                <button class="sign-up">Sign-up</button>
+            </div>
+        </div>
+        
+    </div> 
+    <div class="copyright">
+        copyright &copy <strong>TRAVEL<span class="text-color">LER</span></strong> | All rights reserved. Designed By <span class="text-color"><strong>Veneesia</strong></span>
+    </div>
+
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+<script>
+    const btn=document.getElementsByClassName('btn')[0];
+const navbar=document.getElementsByClassName('navbar-links')[0];
+
+btn.addEventListener('click',()=>{
+  navbar.classList.toggle('active');
+});
+
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace("active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += "active";
+} 
+
+
+
+// Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+} 
+
+</script>
+   
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
